@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\Assets\clock.png</Source>
+    <SmallTileSource>C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\Assets\clock.png</SmallTileSource>
+    <MediumTileSource>C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\Assets\clock.png</MediumTileSource>
+    <WideTileSource>C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\Assets\clock.png</WideTileSource>
+    <LargeTileSource>C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\Assets\clock.png</LargeTileSource>
+    <AppIconSource>C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\Assets\clock.png</AppIconSource>
+    <SplashScreenSource>C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\Assets\clock.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\Assets\clock.png</PackageLogoSource>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>

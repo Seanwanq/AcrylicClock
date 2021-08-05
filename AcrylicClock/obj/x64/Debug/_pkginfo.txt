@@ -1,0 +1,1 @@
+C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\AppPackages\AcrylicClock_1.0.2.0_Debug_Test\AcrylicClock_1.0.2.0_x64_Debug.msixbundle

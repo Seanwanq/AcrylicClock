@@ -1,0 +1,1 @@
+C:\Users\seanw\projects\csharp\AcrylicClock\AcrylicClock\AcrylicClock.csproj;x64
